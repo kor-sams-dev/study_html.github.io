@@ -1,0 +1,13 @@
+/* 
+  rules
+  1. point element 
+  2. Cascading apply style
+
+selector {
+  property: value;
+}
+
+*/
+body {
+  background-color: black;
+}
