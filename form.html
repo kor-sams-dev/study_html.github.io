@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <title>form tags using</title>
+</head>
+<body>
+  <form>
+    <!-- 
+      id attribute is anywhere writing inside body  
+      id attribute is to be unique
+    -->
+    <div>
+      <label for="date">date</label>
+      <input id="date" required placeholder="date" type="date"/>
+    </div>
+    <div>
+      <label for="range">range</label>
+      <input id="range" required placeholder="range" type="range"/>
+    </div>
+    <div>
+      <label for="profile">Profile Photo</label>
+      <input id="profile" type="file" accept="image/*"/>
+    </div>
+    <div>
+      <input type="file" accept=".png, .pdf"/>
+      <input type="color"/>
+    </div>
+    
+    <div>
+      <label for="first-name">First Name</label>
+      <input id="first-name" required placeholder="Nmae" type="text"/>
+    </div>
+    <div>
+      <input required placeholder="Last Name" type="text"/>
+      <input required placeholder="User Name" type="text"/>
+      <input required placeholder="Password" minlength="10" type="password"/>
+    </div>
+    <div>
+      <label for="website">website</label>
+      <input id="website" required placeholder="website" type="url"/>
+    </div>
+    <div>
+      <label for="email">email</label>
+      <input id="email" required placeholder="email" type="email"/>
+    </div>
+    <div>
+      <input type="submit" value="Create Account"/>
+      <input type="submit" disabled value="Disable Button"/>
+    </div>
+  </form>
+</body>
+</html>
+
+<tagName attributesName="attributesValue">vvalkjvlavlaval</tagName>
