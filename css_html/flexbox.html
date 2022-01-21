@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>inline block</title>
+  <style>
+    /* flex box는 부모 컴포넌트에 명시해야 한다. */
+    /* main axis, cross axis */
+    body{
+      height: 100vh;
+      margin: 20px;
+      background-color: black;
+      /* justify-content, align-items 를 사용하려면 display 속성이 flex여야한다. */
+      display: flex;
+      /* main axis */
+      justify-content: space-between;
+      /* cross axis */
+      align-items: center;
+    }
+    div{
+      height: 100px;
+      width: 100px;
+      background-color: teal;
+    }
+    #second{
+      background-color: wheat;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+  <div id="second"></div>
+  <div></div>
+</body>
+</html>

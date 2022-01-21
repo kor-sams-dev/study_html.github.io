@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Saem Homepage</title>
+    <style>
+      /* 
+        inline과 block 의 display 차이
+        inline은 높이와 넓이를 가질 수 없다. 
+        collapsing margin 현상 border의 경계가 같을 경우 하나의 margin으로 친다...뭐여이게...
+
+      */
+      html{
+        background-color: blue;
+      }
+      body{
+        /* margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-bottom: 2px; */
+        padding: 10px;
+        margin: 20px 5px 12px 99px;
+        background-color: chartreuse;
+      }
+      div{
+        margin: 50px 15px;
+        height: 150px;
+        width: 150px;
+        background-color: tomato;
+      }
+      span{
+        display: block;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div>a</div>
+    <div>b</div>
+    <div>c</div>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+  </body>
+</html>

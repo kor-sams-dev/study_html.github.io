@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>margin-pading home</title>
+  <style>
+    /* every thing 적용 할 경우 *을 이용하여 적용 */
+    *{
+      border: 1px dashed black;
+    }
+    html{
+      background-color: skyblue;
+    }
+    body{
+      margin: 20px;
+      padding: 20px;
+      background-color: thistle;
+      border: 2px solid black;
+    }
+    div{
+      padding: 20px;
+    }
+    /* id 요소에 스타일을 적용시키는 방법 #을 붙인다 */
+    #first{
+      background-color: whitesmoke;
+      width: 150px;
+      height: 150px;
+    }
+    #second{
+      background-color: teal;
+      width: 100px;
+      height: 100px;
+    }
+    #third{
+      background-color: wheat;
+      width: 50px;
+      height: 50px;
+    }
+    #fourth{
+      background-color: blanchedalmond;
+      width: 20px;
+      height: 20px;
+    }
+    span{
+      border-style: dotted;
+    }
+  </style>
+</head>
+<body>
+  <div id="first">
+    <div id="second">
+      <div id="third">
+        <span>Hello</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
