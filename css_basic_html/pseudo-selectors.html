@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>pseudo-selectors</title>
+  <style>
+    body{
+      height: 1000vh;
+      margin: 50px;
+    }
+    /* div{
+      width: 150px;
+      height: 150px;
+      background-color: wheat;
+      position: relative;
+    }
+    div:last-child{
+      background-color: teal;
+    }
+    div:first-child{
+      background-color: tomato;
+    } */
+    span{
+      background-color: tomato;
+    }
+    /* span:nth-child(2), 
+      span:nth-child(4){
+      background-color: teal;
+    } */
+    /* even 짝수, odd 홀수 */
+    /* span:nth-child(odd){
+      background-color: teal;
+    } */
+    span:nth-child(4n + 1){
+      background-color: teal;
+    }
+  </style>
+</head>
+<body>
+  <!-- <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div> -->
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+</body>
+</html>

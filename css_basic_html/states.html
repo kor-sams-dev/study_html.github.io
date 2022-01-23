@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>States</title>
+  <style>
+    button:active{
+      background-color: tomato;
+    }
+    button:hover{
+      background-color: thistle;
+    }
+    button:focus{
+      background-color: turquoise;
+    }
+    input:focus{
+      background-color: violet;
+    }
+    a:visited{
+      color: tomato;
+    }
+    a:hover{
+      color: teal;
+    }
+    a:focus{
+      color: pink
+    }
+    form {
+      border:1px solid salmon;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+    form:focus-within{
+      background-color: sienna;
+    }
+    form:hover input:focus{
+      background-color: springgreen;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <button>Hello</button>
+    <input type="text">
+    <input type="text">
+  </div>
+  <a href="https://www.naver.com">GO TO NAVER</a>
+  <form>
+    <input type="text" />
+    <input type="text" />
+    <input type="text" />
+  </form>
+</body>
+</html>

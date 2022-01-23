@@ -5,22 +5,31 @@
   <title>inline block</title>
   <style>
     /* flex box는 부모 컴포넌트에 명시해야 한다. */
-    /* main axis, cross axis */
+    /* flex-direction, main axis, cross axis, flex-wrap */
     body{
       height: 100vh;
       margin: 20px;
       background-color: black;
       /* justify-content, align-items 를 사용하려면 display 속성이 flex여야한다. */
       display: flex;
+      /* flex-direction default row */
+      /* flex-direction: column; */
       /* main axis */
-      justify-content: space-between;
+      justify-content: center;
       /* cross axis */
-      align-items: center;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
     }
     div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 100px;
       width: 100px;
       background-color: teal;
+      font-size: 50px;
+      color: white;
     }
     #second{
       background-color: wheat;
@@ -28,8 +37,8 @@
   </style>
 </head>
 <body>
-  <div></div>
-  <div id="second"></div>
-  <div></div>
+  <div>1</div>
+  <div id="second">2</div>
+  <div>3</div>
 </body>
 </html>

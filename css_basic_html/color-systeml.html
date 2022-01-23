@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Color System</title>
+  <style>
+    :root{
+      /* custom property */
+      --main-color: #fccc00;
+      --default-border: 1px solid var(--main-color)
+    }
+    p{
+      /* color: #fccc00; */
+      /* color: rgb(252, 206, 0, 1) */
+      background-color: var(--main-color)
+    }
+    a{
+      color: var(--main-color);
+      border:var(--default-border);
+    }
+  </style>
+</head>
+<body>
+  <p>A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph.</p>
+  <div>
+    <a href="#">website</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>fiexd CSS</title>
+  <style>
+    /* position fiexd 화면에 고정시켜 한곳에 머무르게 하는 것 */
+    body{
+      height: 1000vh;
+      margin: 20px;
+    }
+    div{
+      color: white;
+      width: 300px;
+      height: 300px;
+      background-color: teal;
+    }
+    #green{
+      position: fixed;
+      background-color: teal;
+      opacity: 0.2;
+    }
+    #different{
+      /* top bottom left right 어느 하나만 수정해도 첫 위치를 기억하지 않는다. */
+      /* position: fixed;
+      background-color: wheat; */
+      width: 350px;
+      top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="green"></div>
+  <div id="different"></div>
+</body>
+</html>
