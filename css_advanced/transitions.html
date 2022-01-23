@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    /* transition 은 state가 붙어야 한다. */
+    a{
+      color: white;
+      background-color: tomato;
+      text-decoration: none;
+      padding: 3px 5px;
+      border-radius: 5px;
+      font-size: 20px;
+      /* transition: background-color 1s ease-in-out, color 5s ease-in-out; */
+      transition: all 1s ease-in-out;
+    }
+    a:hover{
+      border-radius: 50px;
+      color: tomato;
+      background-color: wheat;
+    }
+  </style>
+</head>
+<body>
+  <a href="#">Go home</a>
+</body>
+</html>
