@@ -1,0 +1,62 @@
+<!-- https://developer.mozilla.org/ko/docs/Web/CSS/Media_Queries/Using_media_queries -->
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>media-queries home</title>
+  <style>
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    div{
+      background-color: teal;
+      width: 200px;
+      height: 200px;
+    }
+    /* @media screen and (min-width: 650px) and (max-width: 750px){ */
+    /* @media screen and (min-width: 600px) {
+      div{
+        background-color: tomato;
+      }
+    }
+    @media screen and (min-width: 601px) and (max-width:1200px) {
+      div{
+        background-color: wheat;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      div{
+        background-color: turquoise;
+      }
+    } */
+    
+    /* @media screen and (min-device-width: 601px) and (max-width:1200px) and (orientation: landscape) { */
+    @media screen and (min-width: 601px) and (max-width:1200px) and (orientation: landscape) {
+      div{
+        background-color: wheat;
+      }
+    }
+    span{
+      font-size:36px;
+    }
+    @media screen and (orientation: landscape){
+      span{
+        display: none;
+      }
+    }
+    @media print {
+      body{
+        background-color: tomato;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+  <span>pleas flip your phone :</span>
+</body>
+</html>

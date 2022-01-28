@@ -1,10 +1,28 @@
+<!-- https://developer.mozilla.org/ko/docs/Web/CSS/transform -->
 <!DOCTYPE html>
 <html lang="kr">
 <head>
-    <meta charset="UTF-8">
-    <title>transformation home</title>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    img{
+      border: 5px solid black;
+      border-radius: 50%;
+      /* transformation은 다른 요소에 영ㅇ향을 미치지 않는다. */
+      /* transform: rotateY(40deg) rotateX(20deg) rotateZ(30deg); */
+      /* transform: scale(2, 2); */
+      /* transform: translateX(500px); */
+      /* transform: skewY(45deg); */
+      transition: transform 2s ease-in-out;
+    }
+    img:hover{
+      /* transform: rotateY(360deg) scale(0.5); */
+      transform: rotateY(360deg);
+    }y
+  </style>
 </head>
 <body>
-    
+  <img src="../img/logo.jpg">
+  <span>ahahahahhahahahahahhhahahahh</span>
 </body>
 </html>

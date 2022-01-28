@@ -1,0 +1,54 @@
+<!-- https://animista.net/ -->
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>animation homs</title>
+  <style>
+    body{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @keyframes superSexyCoinFlip{
+      /* 두가지 옵션이 있음 
+        1. From ~ To 를 기재한다
+        2. %를 기재하여 시점을 기재한다
+      */
+      /* from{
+        transform:rotateY(0) ;
+      }
+      to{
+        transform: rotateY(180deg) translateX(100px);
+      } */
+      0% {
+        transform: rotateY(0);
+      }
+      25%{
+        transform: scale(1.5);
+      }
+      50%{
+        border-radius: 0px;
+        transform: rotateY(180deg) translateY(200px);
+        border-color: tomato;
+        opacity: 0;
+      }
+      75%{
+        transform: scale(2);
+      }
+      100%{
+        transform: scale(1) rotateY(0) translateY(0px);
+      }
+    }
+    img{
+      border: 5px solid black;
+      border-radius: 50%;
+      animation: superSexyCoinFlip 5s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body>
+  <img src="http://down.humoruniv.com/hwiparambbs/data/pdswait/a_wfabd89001_77bcf157005df5bf1c5ed5277d7f44a6db11bcb9.jpg" alt="">
+</body>
