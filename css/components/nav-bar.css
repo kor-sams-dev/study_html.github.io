@@ -12,6 +12,39 @@
   display: flex;
   justify-content: space-between;
 }
-.nav__a{
+.nav__link{
   color: #2e363e;
+  position: relative;
+}
+
+.nav__notification{
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__notification-new{
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  display: block;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  right: -7px;
+  top: -15px;
 }
