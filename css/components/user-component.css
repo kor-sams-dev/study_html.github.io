@@ -41,6 +41,11 @@
   margin-top: 5px;
   font-size: 17px;
   color: rgba(0,0,0,0.5);
+  display: flex;
+}
+
+.user-component__subtilte-text{
+  margin-right: 5px;
 }
 
 .user-component__column:last-child{

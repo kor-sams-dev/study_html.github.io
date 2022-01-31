@@ -22,3 +22,16 @@
 .badge-dot-lg{
   top: -15px;
 }
+
+.badge-alret{
+  background-color: white;
+  color: tomato;
+  border: 2px solid tomato;
+  font-weight: 600;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
