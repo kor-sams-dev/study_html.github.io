@@ -9,6 +9,8 @@
 @import "components/nav-bar.css";
 @import "components/friends.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+@import "components/find.css";
 
 
 /* Screens */
@@ -20,4 +22,8 @@ body{
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
   color: #2e363e;
+}
+
+.main-screen{
+  padding: 0px var(--horizontal-space);
 }
