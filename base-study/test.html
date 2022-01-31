@@ -16,29 +16,21 @@
       /* flex-direction: column; */
       /* main axis */
       justify-content: center;
-      /* cross axis */
-      align-items: center;
-      flex-wrap: wrap;
-      flex-direction: row-reverse;
+      position: relative;
     }
-    div{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100px;
-      width: 100px;
-      background-color: teal;
-      font-size: 50px;
-      color: white;
+    #first{
+      position: absolute;
+      width: 100vw;
+      height: 200px;
+      background-color: tomato;
     }
     #second{
-      background-color: wheat;
+      background-color: violet;
     }
   </style>
 </head>
 <body>
-  <div>1</div>
-  <div id="second">2</div>
-  <div>3</div>
+  <div id="first"></div>
+  <div id="second"></div>
 </body>
 </html>

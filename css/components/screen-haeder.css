@@ -3,10 +3,6 @@
   justify-content: space-between;
   padding: 25px;
   align-items: center;
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
-  top: 25px;
 }
 
 .screen-header__title{
