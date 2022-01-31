@@ -4,9 +4,14 @@
   display: block;
   background-color: #fafafa;;
   padding: 15px 0px;
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 #friends-display-link i{
   color: rgba(0,0,0,0.3);
-  padding:0px 5px
+  padding:0px 5px;
+}
+
+.friends-screen{
+  padding: 0px var(--horizontal-space);
 }
