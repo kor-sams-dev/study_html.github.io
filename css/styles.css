@@ -6,6 +6,7 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/screen-haeder.css";
+@import "components/alt-screen-header.css";
 @import "components/nav-bar.css";
 @import "components/friends.css";
 @import "components/user-component.css";
@@ -13,6 +14,7 @@
 @import "components/find.css";
 @import "components/icon-row.css";
 @import "components/more.css";
+@import "components/settings.css";
 
 
 /* Screens */
