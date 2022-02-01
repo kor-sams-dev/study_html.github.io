@@ -4,13 +4,30 @@
   font-size: 25px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .settings__setting:last-child{
   border-bottom: none;
 }
 
+.settings__setting-column:last-child{
+  color: var(--gray);
+}
+
 .settings__setting i{
   margin-right: 20px;
   font-size: 27px;
+}
+
+.settings__setting:last-child{
+  padding-bottom: 45px;
+}
+
+.settings-list-main{
+  border-bottom: var(--main-divider);
+}
+
+.settings-list-sub{
+  padding: 20px 0px;
 }

@@ -17,3 +17,7 @@
 .alt-header__column:last-child{
   margin-left: auto;
 }
+
+.alt-header__column span{
+  margin: 0px 10px;
+}
