@@ -1,0 +1,23 @@
+@import "../../reset.css";
+
+div {
+  color: white;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  /* grid-template-columns: repeat(5, minmax(max-content, 1fr)); */
+  /* grid-template-columns: repeat(5, minmax(min-content, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(20px, max-content));
+  grid-auto-rows: 100px;
+  margin-bottom: 30px;
+}
+
+.item:nth-child(odd) {
+  background-color: crimson;
+}
+
+.item:nth-child(even) {
+  background-color: cornflowerblue;
+}
