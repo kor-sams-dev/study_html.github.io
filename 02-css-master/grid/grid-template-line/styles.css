@@ -1,0 +1,29 @@
+@import "../../reset.css";
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: [first-line] 100px [secont-line] 100px [third-line] 100px [fourth-line] 100px;
+  grid-template-rows: repeat(5, 100px [repeat-line]);
+}
+
+.header {
+  background-color: aqua;
+  grid-column: span 4;
+}
+
+.content {
+  background-color: aquamarine;
+  grid-column: first-line / fourth-line;
+  grid-row: repeat-line 1 / repeat-line 3;
+}
+
+.nav {
+  background-color: blueviolet;
+  grid-row: span 2;
+}
+
+.footer {
+  background-color: rosybrown;
+  grid-column: span 4;
+}
