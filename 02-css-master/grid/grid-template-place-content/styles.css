@@ -1,0 +1,29 @@
+@import "../../reset.css";
+
+.grid {
+  background-color: gray;
+  display: grid;
+  gap: 10px;
+  height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  /* justify-content: center;
+  align-content: end; */
+  place-content: end center;
+}
+
+.header {
+  background-color: aqua;
+}
+
+.content {
+  background-color: aquamarine;
+}
+
+.nav {
+  background-color: blueviolet;
+}
+
+.footer {
+  background-color: rosybrown;
+}
