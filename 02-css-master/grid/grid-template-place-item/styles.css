@@ -19,6 +19,9 @@
 
 .content {
   background-color: aquamarine;
+  /* align-self: end;
+  justify-self: center; */
+  place-self: end center;
 }
 
 .nav {
