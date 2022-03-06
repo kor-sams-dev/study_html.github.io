@@ -1,0 +1,13 @@
+@import "_variables.scss";
+@import "_mixin.scss";
+@import "_buttons";
+
+h1 {
+  color: red;
+  @include responsive("iphone") {
+    color: yellow;
+  }
+  @include responsive("iphone-l") {
+    font-size: 60px;
+  }
+}
